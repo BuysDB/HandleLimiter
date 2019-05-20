@@ -12,7 +12,8 @@ class HandleLimiter(object):
 		self.pruneIntervalCounter = 0
 		self.compressionLevel = compressionLevel
 
-	def write(self, path, string, method=0, forceAppend=False): #0= plain, 1:gzip
+	def write(self, path, string, method=None, forceAppend=False): #0= plain, 1:gzip
+		
 		if not path in self.openHandles:
 
 			self.openHandles[path]={}
