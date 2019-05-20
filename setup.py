@@ -14,7 +14,7 @@ setup(
     license='MPL-2.0',
     packages=['handlelimiter'],
 
-  install_requires=[ ],
+    install_requires=[ ],
     include_package_data=True,
     classifiers=[
         'Development Status :: 3 - Alpha',
