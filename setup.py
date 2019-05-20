@@ -5,9 +5,9 @@ import sys
 
 setup(
     name='handlelimiter',
-    version=version['__version__'],
-    description=('Tools to deal with one or more measurements from single cells'),
-    long_description=long_description,
+    version='0.01',
+    description=('Limit the amount of open file handles'),
+    long_description='Limit the amount of open file handles',
     author='Buys de Barbanson',
     author_email='b.barbanson@hubrecht.eu',
     url='https://github.com/BuysDB/HandleLimiter',
