@@ -5,7 +5,7 @@ import sys
 
 setup(
     name='handlelimiter',
-    version='0.01',
+    version='0.1',
     description=('Limit the amount of open file handles'),
     long_description='Limit the amount of open file handles',
     author='Buys de Barbanson',
